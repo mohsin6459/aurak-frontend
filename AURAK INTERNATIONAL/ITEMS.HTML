@@ -1,0 +1,46 @@
+<!-- items.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Items - AURAK INTER NATIONAL</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>AURAK INTER NATIONAL</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="items.html">Items</a>
+      <a href="payment.html">Payment</a>
+      <a href="checkout.html">Checkout</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h2>Our Items</h2>
+    <div class="item-list">
+      <div class="item">
+        <h3>Item 1</h3>
+        <p>$25</p>
+        <button onclick="addToCart('Item 1', 25)">Add to Cart</button>
+      </div>
+      <div class="item">
+        <h3>Item 2</h3>
+        <p>$40</p>
+        <button onclick="addToCart('Item 2', 40)">Add to Cart</button>
+      </div>
+      <div class="item">
+        <h3>Item 3</h3>
+        <p>$60</p>
+        <button onclick="addToCart('Item 3', 60)">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="cart.js"></script>
+  <footer>&copy; 2025 AURAK INTER NATIONAL</footer>
+</body>
+</html>
+
